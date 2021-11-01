@@ -1,0 +1,204 @@
+
+
+.modal-login {
+		width: 520px;
+	}
+	.modal-login .modal-content {
+		border-radius: 1px;
+		border: none;
+	}
+	.modal-login .modal-header {
+        position: relative;
+		justify-content: center;
+        background: #f2f2f2;
+	}
+    .modal-login .modal-body {
+        padding: 30px;
+    }
+    .modal-login .modal-footer {
+        background: #f2f2f2;
+    }
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+    .modal-login label {
+        font-weight: normal;
+        font-size: 13px;
+    }
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 38px;
+		border-radius: 2px;
+		text-align: center;
+	}
+	.modal-login .hint-text {
+		text-align: center;
+	}
+	.modal-login .close {
+        position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+    .modal-login .checkbox-inline {
+        margin-top: 12px;
+        
+    }
+    .modal-login input[type="checkbox"]{
+        margin-top: 2px;
+        
+    }
+	.modal-login .btn {
+        min-width: 200px;
+		background: #3498db;
+		border: none;
+		line-height: normal;
+		text-align: center;
+		margin-right: 130px;
+	}
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #248bd0;
+	}
+	.modal-login .hint-text a {
+		color: #999;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+	
+	
+label{
+    width: 50px;
+}
+
+.description{
+    width: 300px;
+    height: 40px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.meal{
+    background-color: #d7f7d9;
+    height: 150px;
+    margin: 15px 10px;
+    padding: 0px;
+}
+
+.side{
+    background-color: #80b9ef;
+    height: 150px;
+    margin: 15px 10px;
+    padding: 0px;
+}
+
+#side{
+    background-color: #80b9ef;
+    padding: 0px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.col:not(.specialBox){
+    padding:0px;
+}
+
+.centered{
+    margin-top: 0px;
+    padding-top: 13px;
+}
+
+.vlabel{
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.centeredMain{
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+
+#mainCourse{
+    background-color: #81ed89;
+    padding: 0px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.dessertItem{
+    
+    background-color: #facde5;
+    height: 150px;
+    margin: 15px 10px;
+    padding: 0px;
+}
+
+#dessertCourse{
+    background-color: #f0a3cd;
+    padding: 0px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 16px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #9898a8;
+  display: block;
+  text-transform: uppercase;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+}
+
+.current{
+    background-color: #eee;
+}
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0px;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+    .maincontent{
+        margin-left: 180px;
+    }
+    .sidenav {
+        padding-top: 120px;
+    }
+}
+
+#myNavbar{
+    z-index: 10;
+}

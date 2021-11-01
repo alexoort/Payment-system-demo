@@ -1,0 +1,217 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.users{
+    border-radius: 5px;
+    background-color: #90B4FF;
+}
+
+#myNavbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+   /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+
+#myNavbar #text{
+    padding: 10px 10px;
+}
+
+/* Style the navbar links */
+#myNavbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+
+#myNavbar a .account{
+    border-radius: 40px;
+    background-color: blue;
+}
+
+
+
+/* Style the logo */
+#myNavbar #logo {
+  max-width: 40%;
+  height: auto;
+  font-weight: bold;
+  transition: 0.4s;
+ 
+}
+
+.heading{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.col-sm{
+    height: 400px;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 0px;
+    
+    
+}
+
+#money{
+    background-color: #8de393;
+    padding: 0px;
+    height: 50px;
+    vertical-align: middle;
+}
+#activity{
+    background-color: #7fafdb;
+    padding: 0px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+.centered {
+    padding-top: 10px;
+    
+    
+}
+.info{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#general{
+    background-color: #f7dd7c;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#profile{
+    width: 50%;
+    height: 500px;
+}
+
+.avatar{
+    width: 20%;
+    border-radius: 50%;
+}
+
+
+.content{
+
+    height: 90%;
+}
+
+.col:not(.specialBox){
+    background-color: white;
+}
+
+.current{
+    background-color: #DCDCDC;
+    color: black;
+}
+
+.meal{
+    height: 150px;
+    margin: 15px 10px;
+    padding: 0px;
+    
+}
+
+.firstMeal{
+    height: 150px;
+    margin: 15px 10px;
+    padding: 0px;
+   box-shadow: 0px 1px #e0e0e0; 
+}
+
+.vlabel{
+    width: 25px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+
+.centeredMain{
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+.centeredMainSmall{
+    padding-top: 40px;
+    font-size: 15px;
+}
+#general p{
+    padding: 15px;
+}
+
+.box{
+    height: 130px;
+    margin: 10px 8px;
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 3px;
+    vertical-align: middle;
+    transition: transform .2s;
+    display: inline-block;
+}
+
+.box p{
+    margin: auto;
+}
+.box:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  background-color: lightyellow;
+}
+
+.important{
+    transition: transform .2s;
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.break{
+    height: 20px;
+}
+
+.allergen{
+ 
+    
+    bottom: 0;
+}
