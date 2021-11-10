@@ -1,3 +1,5 @@
+// This is a simplified version of the code that was used for testing purposes. 
+
 #include <MFRC522.h>
 #include <SPI.h>
 #include <LiquidCrystal_I2C.h>
